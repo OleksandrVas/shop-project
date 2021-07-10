@@ -121,6 +121,7 @@ i {
     float: left;
     height: 50px;
     line-height:50px;
+    position: relative;
 }
 .search-button::after {
     display: block;
@@ -128,7 +129,7 @@ i {
     clear: both;
 }
 input {
-    padding: 10px 13.5px ;
+    padding: 10.5px 13px ;
     border-color:#2c71b8 ;
 }
 .search::placeholder {
@@ -137,4 +138,33 @@ input {
     padding-left: 20px;
     
 }
-
+.buy-search {
+    position: absolute; 
+    top:11px;
+    right: 5px;
+    background-image: url(img/icon4.png);
+    width: 30px;
+    height: 30px;
+    background-color:#2c71b8 ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.buy-search:hover{
+    background-color:#0f4983 ;
+    transition: 0.4s;
+}
+.buy-button {
+    position: absolute; 
+    top: 6px;
+    right: -70px;
+    background-image: url(img/icon2.png);
+    width: 40px;
+    height: 40px;
+    background-color:#2c71b8;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.buy-button:hover {
+    background-color:#0f4983 ;
+    transition: 0.4s;
+}
