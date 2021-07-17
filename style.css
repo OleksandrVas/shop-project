@@ -41,6 +41,9 @@ body {
 .col-md-3 {
     width: 25%;
 }
+.col-md-12 {
+    width: 100%;
+}
 .header {
     padding:25px 0;
     background-color: rgba(255, 255, 255, 0.75);
@@ -166,4 +169,84 @@ input {
 .buy-button:hover {
     background-color:#0f4983 ;
     transition: 0.4s;
+}
+/* main  */
+.slider {
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 100px;
+    color: white;
+    font-weight: 250;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.description {
+    padding-top: 33px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+[class*='description-']{
+    padding-left: 30px;
+    color: white;
+}
+.device-type {
+    font-style: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.description-device-type {
+    margin-bottom: 43px;
+}
+.description-device-type form >input {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+.description-color form >input {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+.description-ram form >input {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+.description-color {
+    margin-bottom: 40px;
+}
+.show-more {
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+.show-more > button {
+    color: white;
+    font-size: 21px ;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.show-more > button:hover {
+    color: rgb(245, 197, 197);
+}
+.submit {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.submit > button:hover{
+    background-color:#2665a3 ;
+}
+.submit > button {
+    color: rgb(214, 205, 205);
+    background-color:#2c71b8 ;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 11px 65px;
+    border: 1px solid white;
+    
 }
